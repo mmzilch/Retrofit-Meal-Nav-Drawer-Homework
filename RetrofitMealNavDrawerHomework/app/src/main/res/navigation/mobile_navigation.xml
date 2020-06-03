@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_chicken">
+
+    <fragment
+        android:id="@+id/nav_chicken"
+        android:name="com.example.retrofitmealnavdrawerhomework.ui.Fragment.ChickenFragment"
+        android:label="@string/menu_chicken"
+        tools:layout="@layout/fragment_chicken" />
+
+    <fragment
+        android:id="@+id/nav_beef"
+        android:name="com.example.retrofitmealnavdrawerhomework.ui.Fragment.BeefFragment"
+        android:label="@string/menu_beef"
+        tools:layout="@layout/fragment_beef" />
+
+    <fragment
+        android:id="@+id/nav_seafood"
+        android:name="com.example.retrofitmealnavdrawerhomework.ui.Fragment.SeafoodFragment"
+        android:label="@string/menu_seafood"
+        tools:layout="@layout/fragment_seafood" />
+</navigation>

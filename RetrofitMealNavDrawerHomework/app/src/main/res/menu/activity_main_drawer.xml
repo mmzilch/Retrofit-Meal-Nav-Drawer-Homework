@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chicken"
+            android:icon="@drawable/ic_chicken"
+            android:title="@string/menu_chicken" />
+        <item
+            android:id="@+id/nav_beef"
+            android:icon="@drawable/ic_beef"
+            android:title="@string/menu_beef" />
+        <item
+            android:id="@+id/nav_seafood"
+            android:icon="@drawable/ic_seafood"
+            android:title="@string/menu_seafood" />
+    </group>
+</menu>
